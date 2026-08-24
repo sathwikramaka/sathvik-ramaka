@@ -11,7 +11,7 @@ Available January–June 2027 for a six-month research internship (mandatory cur
 **[Regional Carbon Stock Intelligence System](https://github.com/sathwikramaka/carbon-stock-estimation-ludhiana)** — Ludhiana, Punjab
 Soil organic carbon across a 64,545-cell, 250 m grid: 5.09 MtC (0–30 cm), with above-ground assimilation reported separately as an annual flux rather than summed with it.
 The part worth reading is the validation. Inputs were audited against published ranges for Punjab soils, which surfaced a unit-scaling error that had the district estimate off by 10×. Random splits were replaced with spatial block cross-validation. Every predictor was tested for reconstructability from coordinates alone — four climate covariates came back above R² 0.96 from latitude and longitude, meaning they were acting as positional proxies rather than physical drivers. The README states plainly which of the two reported R² values is trustworthy and why the other is not.
-Team project (SpatioFarm, four members).
+Team project (SpatioFarm, four members). My role: the ML pipeline, the Flask REST API, and the dashboard front end.
 `Python` `scikit-learn` `Google Earth Engine` `PostGIS` `Flask` `Leaflet.js` `MongoDB`
 
 **[Agrivoltaic Site Suitability Optimiser](https://github.com/sathwikramaka/agrivoltaic-site-optimizer-jodhpur)** — Jodhpur, Rajasthan
